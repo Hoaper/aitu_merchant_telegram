@@ -1,7 +1,7 @@
 import { Context, Markup, Telegraf } from "telegraf"
 require('dotenv').config()
 
-const WEB_APP_URL = "https://google.com"
+const WEB_APP_URL = "https://merch-frontend-sepia.vercel.app/"
 const bot = new Telegraf(process.env.BOT_TOKEN || "")
 
 bot.start(async (ctx) => {
